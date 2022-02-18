@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bouton newPLayer -->
+    <style name="btn_newPlayer" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:background">@drawable/btn_calc</item>
+    </style>
+
+    <!-- Bouton à taper Layoute Game -->
+    <style name="btn_taper" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/colorElements</item>
+        <item name="android:background">@drawable/btn_calc</item>
+    </style>
+
+    <!-- TextView NomJoueur Layoute Game -->
+    <style name="btn_namePlayer">
+        <item name="backgroundTint">@color/colorElements</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginTop">@dimen/marginTv</item>
+        <item name="android:layout_marginLeft">@dimen/marginTv</item>
+    </style>
+</resources>

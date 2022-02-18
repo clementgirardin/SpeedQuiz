@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpeedQuiz</string>
+    <string name="joueur1">Player 1</string>
+    <string name="joueur2">Player 2</string>
+    <string name="newPlayer">+ New Player</string>
+    <string name="jouer">Jouer</string>
+
+</resources>

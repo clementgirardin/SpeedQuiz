@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout Main -->
+    <dimen name="marginLeft_player">20dp</dimen>
+    <dimen name="marginRight_player">20dp</dimen>
+    <dimen name="img_margBot">300dp</dimen>
+    <dimen name="marginTop_all">70dp</dimen>
+
+    <!-- Layout Game -->
+    <!-- Boutons à taper -->
+    <dimen name="marginLbtn">60dp</dimen>
+    <dimen name="marginRbtn">60dp</dimen>
+
+    <!-- Margin TextView player's name -->
+    <dimen name="marginTv">10dp</dimen>
+
+
+
+</resources>
