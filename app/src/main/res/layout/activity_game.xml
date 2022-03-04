@@ -8,6 +8,8 @@
     android:background="@color/backgroundGame"
     tools:context=".GameActivity">
 
+
+    <!-- Bouton valider joueur 2 -->
     <Button
         style="@style/btn_taper"
         android:id="@+id/btn_taper2"
@@ -21,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.15" />
 
-    <!-- TextView nom joueur 1 -->
+    <!-- TextView nom joueur 2 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,6 +36,7 @@
 
     <!-- TextView nom joueur 2 -->
     <TextView
+        android:id="@+id/nomJoueur1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
@@ -44,20 +47,72 @@
         />
 
 
+    <!-- Bouton menu -->
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.7">
+    </Button>
+
+    <!-- Bouton menu -->
+    <Button
+        android:id="@+id/btn_rejouer"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/rejouer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.3">
+    </Button>
+
+    <!-- TV joueur 1 -->
+    <TextView
+        android:id="@+id/scoreJoueur1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.03"
+        />
+
+    <!-- TV joueur 2 -->
+    <TextView
+        android:id="@+id/scoreJoueur2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.95"/>
 
 
-
-
-
-
-
-
-
-
-
+    <!-- Bouton valider joueur 1 -->
     <Button
         style="@style/btn_taper"
-        android:id="@+id/btn_taper1"
+        android:id="@+id/btn_valider1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/marginLbtn"
@@ -69,4 +124,32 @@
         app:layout_constraintVertical_bias="0.85" />
 
 
+    <!-- TV question joueur 1-->
+    <TextView
+        android:id="@+id/questionJoueur1"
+        android:layout_width="600dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+    <!-- TV question joueur 2-->
+    <TextView
+        android:id="@+id/questionJoueur2"
+        android:layout_width="600dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.5"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

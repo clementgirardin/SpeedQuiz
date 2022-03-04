@@ -4,5 +4,9 @@
     <string name="joueur2">Player 2</string>
     <string name="newPlayer">+ New Player</string>
     <string name="jouer">Jouer</string>
+    <string name="rejouer">Rejouer</string>
+    <string name="menu">Menu</string>
+    <string name="scoreJoueur1">Menu</string>
+    <string name="scoreJoueur2">Menu</string>
 
 </resources>
