@@ -12,7 +12,7 @@
     <!-- Bouton valider joueur 2 -->
     <Button
         style="@style/btn_taper"
-        android:id="@+id/btn_taper2"
+        android:id="@+id/btn_repondreJoueur2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/marginLbtn"
@@ -25,6 +25,7 @@
 
     <!-- TextView nom joueur 2 -->
     <TextView
+        android:id="@+id/tv_nomjoueur2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
@@ -36,7 +37,7 @@
 
     <!-- TextView nom joueur 2 -->
     <TextView
-        android:id="@+id/nomJoueur1"
+        android:id="@+id/tv_nomjoueur1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
@@ -81,7 +82,7 @@
 
     <!-- TV joueur 1 -->
     <TextView
-        android:id="@+id/scoreJoueur1"
+        android:id="@+id/tv_scoreJoueur2"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:textSize="60dp"
@@ -96,7 +97,7 @@
 
     <!-- TV joueur 2 -->
     <TextView
-        android:id="@+id/scoreJoueur2"
+        android:id="@+id/tv_scoreJoueur1"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:textSize="60dp"
@@ -112,7 +113,7 @@
     <!-- Bouton valider joueur 1 -->
     <Button
         style="@style/btn_taper"
-        android:id="@+id/btn_valider1"
+        android:id="@+id/btn_repondreJoueur1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/marginLbtn"
@@ -126,7 +127,7 @@
 
     <!-- TV question joueur 1-->
     <TextView
-        android:id="@+id/questionJoueur1"
+        android:id="@+id/tv_questionJoueur1"
         android:layout_width="600dp"
         android:layout_height="50dp"
         android:textSize="20dp"
@@ -141,7 +142,7 @@
 
     <!-- TV question joueur 2-->
     <TextView
-        android:id="@+id/questionJoueur2"
+        android:id="@+id/tv_questionJoueur2"
         android:layout_width="600dp"
         android:layout_height="50dp"
         android:textSize="20dp"
